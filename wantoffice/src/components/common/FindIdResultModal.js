@@ -26,8 +26,8 @@ function FindIdResultModal({setFindIdResultModal}) {
         <div className={ FindIdResultCSS.contentDiv }>
 
             { memberDetail && 
-            <p>{ memberDetail.memberName } 님의 아이디는 
-             { memberDetail.memberId } 입니다. </p>
+            <p>{ memberDetail.memberName } 님의 아이디는
+             　{ memberDetail.memberId }　입니다. </p>
             }
 
             <button

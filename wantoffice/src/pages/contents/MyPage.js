@@ -85,6 +85,8 @@ function MyPage() {
 
         console.log("formData : ", form);
 
+        alert("내 정보 수정이 완료되었습니다.");
+
         navigate('/mypage', { replace : true });
         window.location.reload();
     }
