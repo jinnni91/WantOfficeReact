@@ -1,8 +1,8 @@
-# wantOfficeVisual
+# WantOfficeReact
 
 # Project Info
 
-**Spring Boot / React / VSCode / Oracle SQL / Java / REST API**
+**Spring Boot / React / Redux / JPA / REST API**
 
 **WantOffice(워너피스)** 는 기업 업무 환경을 고려한 필수적인 협업 기능을 제공하는 프로그램(그룹웨어)입니다.
 
@@ -23,6 +23,7 @@
 - 회의실 예약 관리 (김형기) | reservation (room)
 
 ------------------------------------------------------------------------------------------------------------------------------------
+
 
 ※ **리액트 터미널 여는 방법**
 
@@ -54,7 +55,7 @@ npm start
 **위 명령문 입력 후 npm start 실행**
 **안될 시 팀원에게 공유 하기!**
 
-# **git 사용 Rule**
+# **1. git 사용 Rule**
 
 1. **master 에 직접 push 하지 않는다.**
 2. **각각 기능별로 브랜치를 생성한다. [ 브랜치명은 어떤 기능 구현인지가 담기도록 설정! ]**
@@ -73,7 +74,7 @@ npm start
 2. **git Repositories 늘 켜놓고 어디서 작업 중인지 수시로 확인, commit push 전 내가 만든 브랜치에서 작업한 게 맞는지 다시 한번 `doubleCheck`**
 3. **각자 열심히 작업한 코드가 날라가지 않게 `pull, push 할땐 항상 주의하기!`**
 
-# **코드 작업시** 폴**더 생성 Rule**
+# **2. 코드 작업시** 폴**더 생성 Rule**
 
 **사용자 화면은 user 폴더 하위에서 작업진행**
 
