@@ -70,7 +70,7 @@ function App() {
           <Route path="/off/regist" element={ <Off/> }/>
           <Route path="/off/result" element={ <OffListForApp/> }/>
           <Route path="/off/:offNo" element={ <OffDetail/> }/>
-          <Route path="/off/modify/:offNo" element={ <OffUpdate/> }/>
+          <Route path="/off/:offNo" element={ <OffUpdate/> }/>
         </Route>
         <Route path="/room" element={<RoomLayout/>}>
           <Route index element={ <RoomList/> }/>
