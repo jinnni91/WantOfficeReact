@@ -133,7 +133,7 @@ export const callOffDetailAPI = ({offNo}) => {
 
 export const callOffUpdateAPI = ({offNo, form}) => {
 
-    const requestURL = `http://${process.env.REACT_APP_RESTAPI_IP}:8001/api/off/modify/${offNo}`;
+    const requestURL = `http://${process.env.REACT_APP_RESTAPI_IP}:8001/api/off/${offNo}`;
 
     return async (dispatch, getState) => {
 
